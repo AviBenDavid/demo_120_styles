@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        style="@style/text.title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="title of the page" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/editText1"
+            style="@style/myEditBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="hello" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            style="@style/text.label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="some info for you" />
+
+        <TextView
+            style="@style/text.label.error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="some urgent message" />
+
+        <TextView
+            style="@style/text.label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="just some label (1)" />
+
+        <TextView
+            style="@style/text.label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="just some label (2)" />
+
+        <TextView
+            style="@style/text.label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="just some label (3)" />
+
+        <TextView
+            style="@style/text.label.error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="something went wrong" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" >
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/button.red"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="rec" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/button.green"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="play" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="&lt;&lt;" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=">>" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/text.footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="please contant us at support@mail.com" />
+
+</LinearLayout><!-- From: file:/C:/Users/avi.bd/Downloads/lotomanager_27_10_V_1.0/demo_120_styles/app/src/main/res/layout/activity_main.xml -->

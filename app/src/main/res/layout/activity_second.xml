@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/button.red"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="50dp"
+        android:layout_weight="1"
+        
+        android:text="DON&apos;T CLICK ME !!!" />
+
+    <TextView 
+        android:id="@+id/textView1"
+        style="@style/text.footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="yet another footer" />
+
+</LinearLayout>
